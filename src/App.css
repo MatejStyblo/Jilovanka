@@ -1,0 +1,84 @@
+* {
+
+   box-sizing: border-box;
+}
+body,
+
+html {
+
+   width: 100%;
+   height: 100%;
+}
+
+
+.nastenka{
+   padding-top:150px;
+   background-repeat: no-repeat;
+   image-rendering: pixelated;
+   image-rendering: auto;
+   image-rendering: crisp-edges;
+   height: 300px;
+   background-size: cover;
+}
+   .detailedNastenka {
+   font-size: 60px;
+   position: absolute;
+   color: white;
+   border-bottom: 1px solid white;
+   border-top: 1px solid white;
+   top: 20%;
+   left: 15%;
+   margin-left: 300px;
+   overflow: hidden;
+
+}
+@media screen and (max-width: 900px) {
+
+   body,
+
+html {
+   
+
+   width: 100%;
+   height: 100%;
+   padding-left: 0;
+   padding-right: 0;
+}
+.image{
+   padding-top: 50px;
+   height: auto;
+}
+   .vse {
+      padding-left: 0;
+   }
+   .nastenkos{
+      position: relative;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      
+   }
+   .obsazenost{
+      padding-top: 100px;
+   }
+   .nastenka{
+      position: relative;
+      height: 200px;
+      padding-top: 90px;
+      image-resolution: cover;
+      margin-bottom: 50px;
+
+      
+ 
+}
+   .detailedNastenka {
+ 
+      position: relative;
+      margin-left: 0px;
+      font-size: 40px;
+left: 0;
+right: 0;
+    padding-top: 50px;
+   border: none;
+   }
+}

@@ -1,0 +1,67 @@
+
+.list {
+   display: inline-block;
+   position: relative;
+}
+.link:hover {
+   color: black !important;
+}
+.link {
+   color: rgba(68, 66, 63, 1) !important;
+}
+
+.navbar{
+
+}
+
+.nav-menu{
+   text-align: right;
+
+   width: 100%;
+   margin: 0;
+   padding: 0;
+
+}
+.forMobileDiv{
+   position: relative;
+}
+
+@media screen and (max-width: 900px) {
+   .navbar {
+      position: absolute;
+      
+   }
+   
+   .nav-menu {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      top: 70px;
+      height: 40vh;
+      position: absolute;
+      /*    right: 100%; */
+      display: none;
+      opacity: 0;
+      transition: all 0.5s ease;
+   }
+
+   .nav-menu.active {
+      margin: 0;
+      background-color: rgb(245, 245, 245);
+      right: 0;
+      opacity: 0.9;
+      transition: all 1s ease;
+/* padding-bottom: 350px;
+ */      display: inherit;
+      z-index: 1;
+      -webkit-transition: all 300ms ease-in-out;
+      transition: all 300ms ease;
+   
+   }
+   .link {
+      width: 100%;
+      display: table;
+   }
+
+
+}

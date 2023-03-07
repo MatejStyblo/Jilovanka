@@ -1,0 +1,48 @@
+.main {
+   position: relative;
+   overflow: hidden;
+   width: auto;
+   image-rendering: pixelated;
+   image-rendering: auto;
+   image-rendering: crisp-edges;
+   margin: 0;
+   /* background-image: url('./PnezionMain.avif'); */
+   padding-top: 0px;
+
+}
+.image{
+
+   }
+.centerText{
+   position: absolute;
+   left: 50%;  
+   top: 50%; 
+   transform: translate(-50%, -50%);
+   width: 100%;
+   background: rgba(0, 0, 0, 0.4);
+   text-align: center;
+   padding: 40px;
+}
+.Chatka{
+   font-size: 55px;
+   color: white;
+}
+.uvod {
+   position: relative;
+   padding: 50px;
+}
+@media screen and (max-width: 900px) {
+   .arrows{
+      padding-top: 12%;
+   }
+
+   .centerText{
+      padding: 10px;
+      left: 50%;  
+      top: 60%; 
+
+   }.Chatka{
+   font-size: 25px;
+   color: white;
+}
+}

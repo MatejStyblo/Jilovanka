@@ -1,0 +1,27 @@
+.aktivity {
+    padding-top: 50px;
+    margin-left: 5%;
+    margin-right: 10%;
+ 
+    font-size: 23px;
+    text-align:justify;
+
+    line-height: 50px;
+ }
+ .first {
+    border-bottom: 1px solid grey;
+    padding-bottom: 0px;
+ }
+ .nadpis {
+    font-size: 30px;
+ }
+ .h3{
+     margin-top: 20px;
+ }
+ .mailto{
+    text-decoration: none;
+
+ }
+ .mailto:hover{
+    text-decoration: none;
+ }
